@@ -1,1 +1,1 @@
-# tactika
+# tactika-consulting

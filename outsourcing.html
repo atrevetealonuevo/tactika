@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Servicios de Outsourcing - Tactika Consulting</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <span class="logo">
+      <a href="index.html">
+        <img src="logo.webp" alt="Tactika Consulting">
+      </a>
+    </span>
+    <a href="index.html">Inicio</a>
+    <a href="servicios.html">Servicios</a>
+    <a href="outsourcing.html">Outsourcing</a>
+    <a href="quienes-somos.html">Quiénes Somos</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+  <header>
+    <h1>🚀 Servicios de Outsourcing</h1>
+    <p>Delega tareas operativas y enfócate en hacer crecer tu negocio.</p>
+  </header>
+  
+  <section>
+    <div class="outsourcing-intro">
+      <h2>¿Por qué elegir nuestros servicios de outsourcing?</h2>
+      <p>Nuestros servicios de outsourcing te permiten acceder a especialistas sin los costos de contratación directa. Gestiona de forma remota las tareas que tu empresa necesita mientras te enfocas en lo que realmente importa: hacer crecer tu negocio.</p>
+      
+      <div class="beneficios-outsourcing">
+        <h3>Beneficios principales:</h3>
+        <ul>
+          <li>✔️ Reducción de costos operativos</li>
+          <li>✔️ Acceso a talento especializado</li>
+          <li>✔️ Mayor flexibilidad y escalabilidad</li>
+          <li>✔️ Enfoque en tu core business</li>
+          <li>✔️ Gestión remota profesional</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="servicio outsourcing">
+      <img src="image.webp" alt="Outsourcing Administrativo">
+      <h3>Plan Outsourcing Administrativo <span class="badge-outsourcing">OUTSOURCING</span></h3>
+      <p><strong>Gestión Administrativa Completa</strong></p>
+      <p><em>Facturación, contabilidad básica, gestión de documentos y trámites administrativos.</em></p>
+      <ul class="beneficios">
+        <li>✔️ Facturación electrónica</li>
+        <li>✔️ Contabilidad básica</li>
+        <li>✔️ Gestión de documentos</li>
+        <li>✔️ Seguimiento de pagos</li>
+        <li>✔️ Trámites administrativos</li>
+        <li>✔️ Reportes mensuales</li>
+      </ul>
+      <p><strong>$89.000 CLP/mes</strong></p>
+      <button class="btn" onclick="abrirModal('Plan Outsourcing Administrativo')">¡Quiero delegar!</button>
+    </div>
+
+    <div class="servicio outsourcing">
+      <img src="banner.webp" alt="Outsourcing Digital">
+      <h3>Plan Outsourcing Digital <span class="badge-outsourcing">OUTSOURCING</span></h3>
+      <p><strong>Gestión de Presencia Digital</strong></p>
+      <p><em>Redes sociales, contenido web, email marketing y presencia online.</em></p>
+      <ul class="beneficios">
+        <li>✔️ Gestión de redes sociales</li>
+        <li>✔️ Creación de contenido</li>
+        <li>✔️ Email marketing</li>
+        <li>✔️ Actualización web</li>
+        <li>✔️ Análisis de métricas</li>
+        <li>✔️ Estrategia digital</li>
+      </ul>
+      <p><strong>$99.000 CLP/mes</strong></p>
+      <button class="btn" onclick="abrirModal('Plan Outsourcing Digital')">¡Quiero presencia digital!</button>
+    </div>
+
+    <div class="servicio outsourcing">
+      <img src="contacto.webp" alt="Outsourcing RRHH">
+      <h3>Plan Outsourcing RRHH <span class="badge-outsourcing">OUTSOURCING</span></h3>
+      <p><strong>Gestión de Recursos Humanos</strong></p>
+      <p><em>Reclutamiento, nóminas, capacitaciones y gestión del talento.</em></p>
+      <ul class="beneficios">
+        <li>✔️ Reclutamiento y selección</li>
+        <li>✔️ Gestión de nóminas</li>
+        <li>✔️ Capacitaciones</li>
+        <li>✔️ Evaluaciones de desempeño</li>
+        <li>✔️ Políticas de RRHH</li>
+        <li>✔️ Gestión de contratos</li>
+      </ul>
+      <p><strong>$129.000 CLP/mes</strong></p>
+      <button class="btn" onclick="abrirModal('Plan Outsourcing RRHH')">¡Quiero gestión RRHH!</button>
+    </div>
+
+    <div class="cta-outsourcing">
+      <h3>¿Necesitas una combinación de servicios?</h3>
+      <p>Podemos crear un paquete personalizado que combine varios servicios de outsourcing según las necesidades específicas de tu PyME.</p>
+      <button class="btn" onclick="abrirModal('Paquete Personalizado Outsourcing')">Consultar paquete personalizado</button>
+    </div>
+  </section>
+  
+  <a href="https://wa.me/56964295330" class="btn-whatsapp" target="_blank" title="Escríbenos por WhatsApp">💬</a>
+  <footer>
+    <p>© 2024 Tactika Consulting. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Modal Formulario Plan -->
+  <div id="modalPlan" style="display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(30,136,229,0.15);z-index:999;align-items:center;justify-content:center;">
+    <div style="background:#fff;padding:30px 20px;border-radius:10px;max-width:400px;width:90%;box-shadow:0 2px 16px rgba(30,136,229,0.15);position:relative;">
+      <button onclick="cerrarModal()" style="position:absolute;top:10px;right:10px;background:none;border:none;font-size:1.5em;cursor:pointer;color:#1e88e5;">&times;</button>
+      <h2 id="tituloPlan">Consulta Plan</h2>
+      <form id="formPlan" action="https://formspree.io/f/meokrpyp" method="POST">
+        <input type="hidden" name="plan" id="inputPlan">
+        <input type="text" name="nombre" placeholder="Nombre completo" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="tel" name="telefono" placeholder="Teléfono">
+        <textarea name="mensaje" placeholder="Mensaje"></textarea>
+        <button class="btn" type="submit">Consultar este plan</button>
+      </form>
+    </div>
+  </div>
+  <script>
+    function abrirModal(plan) {
+      document.getElementById('modalPlan').style.display = 'flex';
+      document.getElementById('tituloPlan').innerText = 'Consulta: ' + plan;
+      document.getElementById('inputPlan').value = plan;
+    }
+    function cerrarModal() {
+      document.getElementById('modalPlan').style.display = 'none';
+    }
+    // Cierra el modal al hacer click fuera del formulario
+    window.onclick = function(event) {
+      var modal = document.getElementById('modalPlan');
+      if (event.target == modal) { modal.style.display = "none"; }
+    }
+  </script>
+</body>
+</html>
+
